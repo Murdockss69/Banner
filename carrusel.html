@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Finn el humano</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style2.css">   
+    <link rel="icon" href="img/Icon.png" type="image/x-icon">
+    <style>
+        @media only screen and (max-width: 700px) {
+            .classparr{
+             font-size: 10px;
+             }
+        }
+        @font-face {
+            font-family: mifuente;
+            src: url(ttf/AdventureTimeLogo.ttf);
+        }
+
+        @font-face {
+            font-family: fuentedos;
+            src: url(ttf/SF_Toontime.ttf);
+        
+        }
+        /*tipografía Hora de Aventura, títulos */
+        h1.claselogo {
+            font-family: mifuente;
+            font-size: auto;
+            color: #F84636; /* Color del texto */
+            -webkit-text-stroke: 2px black; /* Borde alrededor de las letras */
+            line-height: 1.1;
+        }
+    
+        /*tipografía para párrafos */
+        p.claseparr {
+            color: #4BAE1C;
+            font-family: fuentedos;
+            font-size: 1rem;
+            
+        }
+      
+    </style>
+</head>
+<body>
+   
+<div id="carouselExample" class="carousel slide" class="" data-ride="carousel" >
+    <div class="carousel-inner">
+        <div class="carousel-item active" id="frame1"  >
+            <div id="Frame-primero" style="height: 50%;" >
+                <img src="img/Finnropa.png" alt="fin con ropa" id="foto1"> 
+                <div class="columnax">
+                    <h1 class="claselogo">Ropa</h1>
+                    <p class="claseparr"> Usa un gorro hecho de pelaje de oso, una playera azul claro, pantalones cortos azul oscuro, una mochila verde, calcetines blancos enrollados y zapatos color negro.</p>
+                </div>  
+                <div class="columnax">
+                    <h1 class="claselogo">Cabello</h1>
+                    <p class="claseparr"> Su cabello es rubio, rizo, antes era muy largo pero se lo cortó hasta los hombros para dárselo a una bruja que deseaba verse hermosa pero sufría de calvicie.</p>
+                </div>
+                <img src="img/Finncabello.png" alt="fin con cabello" style="width: 25%; height: auto; max-height: 70%;">   
+                            
+            </div>
+        </div>
+        <div class="carousel-item" id="frame2" >
+            <div id="Frame-segundo" class="responsivereal" style="height: 50%;">
+                <div id="texto2">
+                    <h1 class="claselogo">Su hermano Jake</h1>
+                    <p class="claseparr"> Joshua y Margaret fallecen cuando Finn era un niño y Jake un adolescente; por lo que, se marchan para encontrar un nuevo hogar, el Fuerte del Árbol. Ambos forjan una relación de hermanos y viven grandes aventuras. </p>
+                </div>
+                <div id="derecha" >
+                    <img src="img/Finnyjake.png" alt="Fin bebe" style="width: 40%; height: auto;">
+                </div>
+            </div>
+        </div>
+        <div class="carousel-item" id="frame3" >
+            <div id="frametercero" class="responsivereal" style="height: 50%;">
+                 <div id="izquierda">
+                    <img src="img/Adopcion.png" alt="Fin bebe" style="width: 40%; height: auto;">
+                </div>
+                <div id="texto3">
+                    <h1 class="claselogo">Adopcion</h1>
+                    <p class="claseparr"> Fue separado de sus padres cuando era un bebé, estaba solo, dos perros, Joshua y Margaret, lo encontraron y se lo llevaron, aunque al principio Joshua insistió en dejarlo, al final lo llevaron a casa con sus nuevos hermanos Jake y Jermaine.</p>
+                </div>
+          </div>
+  
+        </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExample" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Anterior</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExample" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Siguiente</span>
+    </a>
+</div>
+
+<!-- Enlazar jQuery y Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>

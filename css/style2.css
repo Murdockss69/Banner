@@ -1,0 +1,119 @@
+body{
+    background-image: url(../img/FONDO.jpg);
+    display: flex;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: end;
+}
+
+.carousel-item {
+    height: 100vh; /* Ocupa toda la altura de la ventana */
+}
+.carousel-item div {
+    height: 100%; /* Asegura que los divs hijos ocupen toda la altura */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem; /* Tamaño del texto */
+    color: white; /* Color del texto */
+}
+#carouselExample{
+    background-image: url(../img/fondo6.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 96%;
+    height: 50vh;
+}
+#Frame-primero{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 2%;
+}
+
+#derecha {
+    width: 50%;
+    height: 70%;
+}
+#texto2 {
+    width: 30%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+}
+#texto3 {
+    width: 30%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+}
+#izquierda {
+    width: 50%;
+    height: 70%;
+}
+/* lo quité
+#texto3 {
+    width: 30%;
+    height: 70%;
+}*/
+#frametercero {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 2%;
+}
+.columnax{
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+}
+#foto1{
+    width: 15%; height: auto;  max-height: 70%
+
+}
+@media only screen and (max-width: 700px) {
+
+    #Frame-segundo{
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        overflow-y: scroll;
+    }
+    #frametercero{
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        overflow-y: scroll;    }
+    #Frame-primero{
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        }
+    .columnax{
+        font-size: 10px;
+        width: 55%;
+        
+    }
+    #texto2 {
+        width: 50%;
+        
+    }
+    #texto3 {
+        width: 50%;
+        
+    }
+    .classparr{
+        font-size: 10px;
+    }
+    #frame1{
+        overflow-y: scroll;
+        padding-top: 5%;
+    }
+    #foto1{
+        width: 15%; height: 300px;
+        margin-top: 150px;
+    }
+}

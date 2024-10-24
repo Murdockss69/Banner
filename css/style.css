@@ -1,0 +1,160 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    /* background-image: url(Banner.png); */
+    /* background-color: blue; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+
+}
+
+
+#espacio {
+    width: 50%;
+    height: 45%;
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-top: 7%;
+}
+
+
+#texto {
+    width: 100%;
+    height: 40%;
+    /* background-color: rgb(55, 14, 102); */
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    padding-top: 6%;
+}
+
+
+#boton {
+    width: 100%;
+    height: 35%;
+    /* background-color: blue; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 6%;
+    
+}
+
+
+.titulo {
+    
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+    font-size: 9rem;
+    color: #F84636; 
+    -webkit-text-stroke: 4px black; 
+    line-height: 1.1; 
+    
+    
+    transform: none;
+}
+.go {
+    width: auto;
+    height: 100%;
+    cursor: pointer;
+
+}
+.go:hover{
+    width: auto;
+    height: 110%;
+    opacity: 0.8; 
+}
+#canvas1{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+    padding-right: 3%;
+    background-image: url(../img/Banner.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+#canvas2{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    background-image: url(../img/Banner2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+#text{
+    height: 30%;
+    width: 100%;
+    /* background-color: aqua; */
+    padding: 5%;
+    
+    text-align: center;
+
+}
+#buton {
+    height: 30%;
+    width: 100%;
+    /* background-color: rgb(53, 24, 92); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+#espacio-buton{
+    height: 40%;
+    display: flex;
+    align-items: center;
+}
+
+
+
+
+
+
+@media only screen and (max-width: 760px) {
+
+
+    #canvas1 {
+        display: none;
+    }
+
+    #canvas2 {
+        display: flex; 
+    }
+}
+
+@media only screen and (min-width: 761px) {
+   
+    #canvas1 {
+        display: flex; 
+    }
+
+    #canvas2 {
+        display: none;
+    }
+}
+@media only screen and (max-width: 470px) {
+
+    .titulo{
+        font-size: 4rem; 
+
+    }
+}
